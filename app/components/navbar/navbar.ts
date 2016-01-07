@@ -15,7 +15,6 @@ let template = require('./navbar.html');
  */
 export class Navbar {
   images: Object;
-
   constructor() {
     this.images = {
     };

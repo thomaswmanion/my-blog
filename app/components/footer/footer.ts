@@ -14,4 +14,8 @@ let template = require('./footer.html');
  * @returns exported component
  */
 export class FooterSection {
+	year: Number;
+	constructor() {
+		this.year = new Date().getFullYear();
+	}
 }
