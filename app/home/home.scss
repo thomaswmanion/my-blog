@@ -1,0 +1,23 @@
+.author {
+    max-width: 200px;
+    margin: 0 auto;
+    //Large
+    @media (min-width: 768px) {
+    	margin-top: 50px;
+    }
+    //Small
+    @media (max-width: 767px) {
+    	margin-top: 15px;
+    }
+}
+
+div.author-text {
+	text-align: center;
+	span.author-name {
+		font-weight: 600;
+	}
+
+	span.author-location {
+		font-weight: 400;
+	}
+}
